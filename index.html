@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>FRAGMENTED SOULS — Genesis</title>
+  <meta name="description" content="FRAGMENTED SOULS — contemporary digital art exploring identity, memory, emotion and transformation.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="grain"></div>
+
+<header class="header">
+  <a class="logo" href="#home"><span>FS</span><b>FRAGMENTED SOULS</b></a>
+  <nav>
+    <a href="#home">Home</a><a href="#collection">Collection</a><a href="#about">About</a>
+    <a href="#artist">Artist</a><a href="#collect">Collect</a>
+  </nav>
+  <div class="social"><a href="https://www.instagram.com/fragmentedsouls.art/" target="_blank">◎</a><a href="#" aria-label="X">𝕏</a></div>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-copy">
+    <div class="kicker">NFT COLLECTION · GENESIS</div>
+    <h1>FRAGMENTED<br><i>SOULS</i></h1>
+    <div class="rule"></div>
+    <p>Fragments of identity,<br>memory &amp; emotion.</p>
+    <a class="btn" href="#collection">EXPLORE COLLECTION <span>→</span></a>
+  </div>
+  <div class="hero-visual">
+    <div class="ring"></div>
+    <div class="visual-card">
+      <img src="assets/emblem.png" alt="FRAGMENTED SOULS artwork">
+      <div class="visual-label">01 / 04</div>
+    </div>
+  </div>
+  <div class="scroll">SCROLL <span>↓</span></div>
+</section>
+
+<section id="collection" class="collection section">
+  <div class="collection-intro">
+    <div class="kicker">THE COLLECTION</div>
+    <h2>GENESIS</h2>
+    <p>A limited collection of 12 unique digital artworks, each one a fragment of a larger story.</p>
+    <a class="btn ghost" href="#gallery">VIEW ALL WORKS <span>→</span></a>
+    <div class="stats"><span>12 ARTWORKS</span><span>1/1 EDITIONS</span><span>ON CHAIN</span></div>
+  </div>
+  <div id="gallery" class="cards">
+    <article class="card active">
+      <div class="card-img"><img src="assets/emblem.png" alt="The Silent Gaze"></div>
+      <small>01</small><h3>THE SILENT GAZE</h3><p>A fragment of identity suspended between memory and emotion.</p><label><i></i> AVAILABLE</label>
+    </article>
+    <article class="card">
+      <div class="card-img art-two"></div><small>02</small><h3>THE OBSERVER</h3><p>A witness to the inner world.</p><label><i></i> AVAILABLE</label>
+    </article>
+    <article class="card">
+      <div class="card-img art-three"></div><small>03</small><h3>MEMORY</h3><p>What we keep, never fades.</p><label><i></i> AVAILABLE</label>
+    </article>
+    <article class="card">
+      <div class="card-img art-four"></div><small>04</small><h3>DUALITY</h3><p>Two sides. One soul.</p><label><i></i> AVAILABLE</label>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="story section">
+  <div class="story-copy">
+    <div class="kicker">ABOUT</div>
+    <h2>WHERE IDENTITY<br>BREAKS INTO ART.</h2>
+    <p>FRAGMENTED SOULS explores the pieces we carry: memories, contradictions, emotions and the versions of ourselves that change over time.</p>
+    <p>Each work is built as a contemporary visual fragment — geometric, tactile and deliberately imperfect.</p>
+    <a class="text-btn" href="#artist">OUR STORY <span>→</span></a>
+  </div>
+  <div class="story-image"><div class="fake-figure"></div><div class="gold-crack"></div></div>
+</section>
+
+<section id="artist" class="artist section">
+  <div class="artist-image"><img src="assets/emblem.png" alt="FRAGMENTED SOULS artist visual"></div>
+  <div class="artist-copy">
+    <div class="kicker">THE ARTIST</div>
+    <h2>CREATED BY<br>A VISION.</h2>
+    <p>FRAGMENTED SOULS is a digital art project transforming complex emotions into timeless visual fragments.</p>
+    <p>The collection combines contemporary cubist principles, layered geometry and a tactile museum-inspired surface.</p>
+    <a class="text-btn" href="#collect">MEET THE VISION <span>→</span></a>
+  </div>
+</section>
+
+<section id="collect" class="collect section">
+  <div class="kicker">COLLECT</div>
+  <h2>OWN A PIECE<br>OF THE SOUL.</h2>
+  <p>The Genesis collection will be released on OpenSea, built on Polygon.</p>
+  <a class="btn" href="#" aria-label="OpenSea link to be added">VIEW ON OPENSEA <span>↗</span></a>
+  <div class="chain"><span>◈ Polygon</span><span>◉ OpenSea</span><span>1/1 DIGITAL ART</span></div>
+</section>
+</main>
+
+<footer>
+  <a class="logo" href="#home"><span>FS</span><b>FRAGMENTED SOULS</b></a>
+  <div class="footer-nav"><a href="#home">HOME</a><a href="#collection">COLLECTION</a><a href="#about">ABOUT</a><a href="#artist">ARTIST</a><a href="#collect">COLLECT</a></div>
+  <div class="footer-social"><a href="https://www.instagram.com/fragmentedsouls.art/" target="_blank">◎</a><a href="#">𝕏</a><small>© 2026 FRAGMENTED SOULS</small></div>
+</footer>
+
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener('click',e=>{
+    const el=document.querySelector(a.getAttribute('href'));
+    if(el){e.preventDefault();el.scrollIntoView({behavior:'smooth'});}
+  });
+});
+</script>
+</body>
+</html>
